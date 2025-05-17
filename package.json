@@ -6,9 +6,7 @@
   "scripts": {
     "prettify": "prettier -l --write \"**/*.js\"",
     "test": "jest",
-    "dev": "nodemon -L src/index.js",
-    "install": "npm rebuild sqlite3",
-    "prepare": "npm rebuild sqlite3"
+    "dev": "nodemon -L src/index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
